@@ -2,6 +2,8 @@
 
 # MEVN-eCAR
 
+Final degree project. SPA using Vue, Node.js and Express.js among others. MEVN stack.
+
 ## Project setup
 ```
 npm install
