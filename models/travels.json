@@ -1,0 +1,138 @@
+[
+  {
+    "vehiculo": "5bc79b0f9722962ab3dd1219",
+    "fechaInicio": "Sun Oct 28 2018 13:33:14 GMT+0000 (UTC)",
+    "estado": "iniciado",
+    "localizacionGeoInicio": {
+      "lat": "21.729944",
+      "long": "116.368902"
+    },
+    "usuario": "indalo"
+  },
+  {
+    "vehiculo": "5bc79b0f040520ebe2c2b7f4",
+    "fechaInicio": "Fri Oct 26 2018 06:00:46 GMT+0000 (UTC)",
+    "fechaFinal": "Mon Oct 22 2018 14:50:30 GMT+0000 (UTC)",
+    "estado": "finalizado",
+    "localizacionGeoInicio": {
+      "lat": "48.156134",
+      "long": "146.189821"
+    },
+    "localizacionGeoFinal": {
+      "lat": "-55.200744",
+      "long": "-110.468587"
+    },
+    "importe": {
+      "moneda": "EUR",
+      "cuantia": "35,93",
+      "estado": true
+    },
+    "distanciaRecorrida": "227,19 km",
+    "usuario": "lagarto"
+  },
+  {
+    "vehiculo": "5bc79b0f2e00af475367994a",
+    "fechaInicio": "Sun Oct 28 2018 09:54:15 GMT+0000 (UTC)",
+    "fechaFinal": "Sat Oct 20 2018 03:48:09 GMT+0000 (UTC)",
+    "estado": "finalizado",
+    "localizacionGeoInicio": {
+      "lat": "-4.606214",
+      "long": "160.747048"
+    },
+    "localizacionGeoFinal": {
+      "lat": "36.202156",
+      "long": "-114.828349"
+    },
+    "importe": {
+      "moneda": "EUR",
+      "cuantia": "84,38",
+      "estado": false
+    },
+    "distanciaRecorrida": "121,10 km",
+    "usuario": "indalo"
+  },
+  {
+    "vehiculo": "5bc79b0f3ed2c30fa2f1dee7",
+    "fechaInicio": "Wed Oct 24 2018 10:09:52 GMT+0000 (UTC)",
+    "fechaFinal": "Tue Oct 23 2018 10:35:31 GMT+0000 (UTC)",
+    "estado": "finalizado",
+    "localizacionGeoInicio": {
+      "lat": "29.885293",
+      "long": "7.72075"
+    },
+    "localizacionGeoFinal": {
+      "lat": "87.136943",
+      "long": "-70.294859"
+    },
+    "importe": {
+      "moneda": "EUR",
+      "cuantia": "92,96",
+      "estado": false
+    },
+    "distanciaRecorrida": "270,96 km",
+    "usuario": "indalo"
+  },
+  {
+    "vehiculo": "5bc79b0fe3c714a5e1df99ac",
+    "fechaInicio": "Thu Oct 18 2018 17:09:46 GMT+0000 (UTC)",
+    "fechaFinal": "Fri Oct 19 2018 19:57:17 GMT+0000 (UTC)",
+    "estado": "finalizado",
+    "localizacionGeoInicio": {
+      "lat": "71.924808",
+      "long": "-107.285737"
+    },
+    "localizacionGeoFinal": {
+      "lat": "-34.788574",
+      "long": "160.407576"
+    },
+    "importe": {
+      "moneda": "EUR",
+      "cuantia": "103,46",
+      "estado": false
+    },
+    "distanciaRecorrida": "230,86 km",
+    "usuario": "indalo"
+  },
+  {
+    "vehiculo": "5bc79b0f0719378d3889b998",
+    "fechaInicio": "Fri Oct 26 2018 07:26:34 GMT+0000 (UTC)",
+    "fechaFinal": "Fri Oct 26 2018 23:34:00 GMT+0000 (UTC)",
+    "estado": "finalizado",
+    "localizacionGeoInicio": {
+      "lat": "27.663912",
+      "long": "-24.511951"
+    },
+    "localizacionGeoFinal": {
+      "lat": "-25.650168",
+      "long": "92.488603"
+    },
+    "importe": {
+      "moneda": "EUR",
+      "cuantia": "83,37",
+      "estado": true
+    },
+    "distanciaRecorrida": "115,02 km",
+    "usuario": "indalo"
+  },
+  {
+    "vehiculo": "5bc79b0f29f711a231c5ed1a",
+    "fechaInicio": "Sat Oct 20 2018 16:27:43 GMT+0000 (UTC)",
+    "fechaFinal": "Sat Oct 20 2018 14:14:38 GMT+0000 (UTC)",
+    "estado": "finalizado",
+    "localizacionGeoInicio": {
+      "lat": "88.111983",
+      "long": "115.982296"
+    },
+    "localizacionGeoFinal": {
+      "lat": "-73.611947",
+      "long": "164.313784"
+    },
+    "importe": {
+      "moneda": "EUR",
+      "cuantia": "84,01",
+      "estado": true
+    },
+    "distanciaRecorrida": "277,95 km",
+    "usuario": "indalo"
+  }
+]

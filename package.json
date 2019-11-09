@@ -1,0 +1,96 @@
+{
+  "name": "mevn-secure",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build && node ./bin/www",
+    "lint": "vue-cli-service lint",
+    "test:unit": "vue-cli-service test:unit",
+    "test:e2e": "vue-cli-service test:e2e",
+    "heroku-postbuild": "echo Skip build on Heroku"
+  },
+  "dependencies": {
+    "@google-cloud/storage": "^2.4.2",
+    "ajv": "^6.9.1",
+    "axios": "^0.18.0",
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.18.3",
+    "bootstrap": "^4.3.1",
+    "bootstrap-vue": "^1.5.1",
+    "chalk": "^2.4.2",
+    "chart.js": "^2.7.3",
+    "connect-history-api-fallback": "^1.6.0",
+    "dotenv": "^6.2.0",
+    "eslint": "^5.14.1",
+    "express": "^4.16.4",
+    "express-session": "^1.15.6",
+    "express-validator": "^5.3.1",
+    "flatpickr": "^4.5.2",
+    "jsonwebtoken": "^8.4.0",
+    "lusca": "^1.6.1",
+    "mongoose": "^5.4.13",
+    "morgan": "^1.9.1",
+    "multer": "^1.4.1",
+    "nodemailer": "^5.1.1",
+    "nouislider": "^13.1.1",
+    "passport": "^0.4.0",
+    "passport-facebook": "^3.0.0",
+    "passport-jwt": "^4.0.0",
+    "serve-favicon": "^2.5.0",
+    "tosource": "^1.0.0",
+    "v-file-upload": "^3.1.7",
+    "vue": "^2.6.6",
+    "vue-chartjs": "^3.4.0",
+    "vue-flatpickr-component": "^8.1.1",
+    "vue-lazyload": "^1.2.6",
+    "vue-paypal-checkout": "^3.2.0",
+    "vue-router": "^3.0.2",
+    "vue-single-select": "^1.0.29",
+    "vue2-transitions": "^0.2.3",
+    "vuescroll": "^4.10.5",
+    "vuex": "^3.1.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.4.0",
+    "@vue/cli-plugin-e2e-nightwatch": "^3.4.0",
+    "@vue/cli-plugin-eslint": "^3.4.0",
+    "@vue/cli-plugin-unit-mocha": "^3.4.0",
+    "@vue/cli-service": "^3.4.1",
+    "@vue/eslint-config-standard": "^4.0.0",
+    "@vue/test-utils": "^1.0.0-beta.29",
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "moxios": "^0.4.0",
+    "node-sass": "^4.11.0",
+    "sass-loader": "^7.1.0",
+    "sinon": "^7.2.4",
+    "vue-template-compiler": "^2.6.6"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "@vue/standard"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ],
+  "heroku-run-build-script": true
+}

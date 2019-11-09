@@ -1,0 +1,106 @@
+.card {
+    position: relative;
+}
+
+.page {
+    .card-page-principal-page-first {
+      margin-top: -500px !important;
+    }
+
+    .card-page-principal-page-second {
+      margin-top: -100px !important;
+    }
+
+    .card-page-regular {
+      margin-top: -230px !important;
+    }
+
+    .card-page {
+        margin-top: -350px !important;
+
+        .card-image {
+            position: relative;
+
+            img {
+                max-width: 180px;
+                border-radius: $border-radius;
+                @extend .shadow;
+                transform: translate(-50%,-30%);
+                position: absolute;
+                left: 50%;
+                transition: $transition-base;
+
+                &:hover {
+                    transform: translate(-50%, -33%);
+                }
+            }
+        }
+
+        .card-stats {
+            padding: 1rem 0;
+
+            > div {
+                text-align: center;
+                margin-right: 1rem;
+                padding: .875rem;
+
+                &:last-child {
+                    margin-right: 0;
+                }
+
+                .heading {
+                    font-size: 1.1rem;
+                    font-weight: bold;
+                    display: block;
+                }
+                .description {
+                    font-size: .875rem;
+                    color: $gray-500;
+                }
+            }
+        }
+
+        .card-actions {
+            padding: .875rem;
+        }
+
+        @include media-breakpoint-down(xs) {
+            .card-actions {
+                margin-top: 110px;
+            }
+        }
+
+        @include media-breakpoint-between(sm, md) {
+            .card-stats {
+                margin-top: 30px;
+            }
+        }
+    }
+}
+
+// Card with blockquotes
+
+.card {
+    .card-blockquote {
+        padding: 2rem;
+        position: relative;
+
+        .svg-bg {
+            display: block;
+            width: 100%;
+            height: 95px;
+            position: absolute;
+            top: -94px;
+            left: 0;
+        }
+    }
+}
+
+// Animated cards
+
+.card-lift--hover {
+    &:hover {
+        transform: translateY(-20px);
+        @include transition($transition-base);
+    }
+}

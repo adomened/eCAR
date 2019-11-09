@@ -1,0 +1,142 @@
+<template lang="html">
+  <section class="bg-amarillo-huevo">
+    <div class="container pt-lg-5 pt-3">
+      <div class="row justify-content-center">
+        <div class="col-12 bg-image-port">
+          <h1 class="header">
+            <span class="e">e</span><span class="c">C</span>
+            <span class="a">A</span><span class="r">R</span>
+          </h1>
+        </div>
+        <div class="col-lg-9 col-md-10 col-12 mt-4 px-0">
+          <div class="row bg-default rounded mx-min">
+            <span class="col-12 d-flex align-items-center text-default bg-white rounded-top py-2" >
+              <span class="position-absolute dot red"></span>
+              <span class="position-absolute dot green"></span>
+              <span class="position-absolute dot blue"></span>
+              <h4 class="mx-auto pt-1 font-weight-light text-center">Bienvenido</h4>
+            </span>
+            <div class="col-12 mb-3">
+              <p class="font-weight-normal text-justify text-monospace text-white p-3 mb-0">eCAR nace con un objetivo claro, ofrecerte la oportunidad de alquilar un vehiculo electrico
+                de una forma rapida y sencilla. Disfruta desde hoy las ventajas de conducir un vehiculo electrico _</p>
+              <div class="d-flex justify-content-center py-3">
+                <router-link to="/busqueda-vehiculo" class="btn btn-neutral text-default btn-lg no-translate-y border-0">
+                  <span class="btn-inner--icon">
+                    <i class="fa fa-map-marker mr-2"></i>
+                  </span>
+                  Alquilar
+                </router-link>
+                <router-link :to="{ name: 'acerca-de' }" class="btn btn-no-shadow no-translate-y text-secondary btn-lg" role="button">
+                  <span class="btn-inner--icon">
+                    <i class="fa fa-info mr-2"></i>
+                  </span>
+                  Aprenda mas
+                </router-link>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="container py-3">
+      <div class="row justify-content-center">
+        <p class="text-center text-default rounded px-3 py-2 mx-min" style="background-color:#fbde8d">
+          <i class="fa fa-map-marker mr-2 pr-3 border-right border-default"></i>
+          Para ofrecerte el servicio le pedimos que nos facilite su localización geografica.
+          <router-link class="text-default" :to="{ name: 'politicas', params: { politica: 'general' }}">
+            Politica de privacidad
+          </router-link>
+        </p>
+
+      </div>
+    </div>
+
+  </section>
+</template>
+
+<script>
+export default {
+  name: 'Portada'
+}
+</script>
+
+<style lang="scss">
+@import url(https://fonts.googleapis.com/css?family=Bevan);
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed);
+
+.bg-amarillo-huevo{
+  background: #f1b500 !important;
+}
+.bg-image-port {
+  background-image: url("/img/_port_.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.mx-min{
+  margin-left: .35rem!important;
+  margin-right: .35rem!important;
+}
+.header {
+  font-family: "Bevan";
+  font-size: 150px;
+  font-weight: 400;
+  line-height: 130px;
+  color: #fff;
+  text-align: center;
+  width: 260px;
+  margin: 75px auto 0;
+  text-shadow:
+    0px 0px 0 rgb(-14,144,41),-1px 1px 0 rgb(-19,139,36),-2px 2px 0 rgb(-23,135,32),-3px 3px 0 rgb(-27,131,28),-4px 4px 0 rgb(-32,126,23),-5px 5px 0 rgb(-36,122,19),-6px 6px 0 rgb(-40,118,15),-7px 7px 0 rgb(-45,113,10),-8px 8px 0 rgb(-49,109,6),-9px 9px 0 rgb(-53,105,2),-10px 10px 0 rgb(-58,100,-3),-11px 11px 0 rgb(-62,96,-7),-12px 12px 0 rgb(-67,91,-12),-13px 13px 0 rgb(-71,87,-16),-14px 14px 0 rgb(-75,83,-20),-15px 15px 0 rgb(-80,78,-25),-16px 16px 0 rgb(-84,74,-29),-17px 17px 0 rgb(-88,70,-33),-18px 18px 0 rgb(-93,65,-38),-19px 19px 0 rgb(-97,61,-42), -20px 20px 0 rgb(-101,57,-46);
+}
+.header span { position: relative }
+.header span:first-child {
+  z-index: 15;
+}
+.header span:nth-child(2) {
+  z-index: 14;
+  text-shadow:0px 0px 0 rgb(167,42,152),-1px 1px 0 rgb(162,37,147),-2px 2px 0 rgb(158,33,143),-3px 3px 0 rgb(154,29,139),-4px 4px 0 rgb(149,24,134),-5px 5px 0 rgb(145,20,130),-6px 6px 0 rgb(141,16,126),-7px 7px 0 rgb(136,11,121),-8px 8px 0 rgb(132,7,117),-9px 9px 0 rgb(128,3,113),-10px 10px 0 rgb(123,-2,108),-11px 11px 0 rgb(119,-6,104),-12px 12px 0 rgb(114,-11,99),-13px 13px 0 rgb(110,-15,95),-14px 14px 0 rgb(106,-19,91),-15px 15px 0 rgb(101,-24,86),-16px 16px 0 rgb(97,-28,82),-17px 17px 0 rgb(93,-32,78),-18px 18px 0 rgb(88,-37,73),-19px 19px 0 rgb(84,-41,69), -20px 20px 0 rgb(80,-45,65);
+}
+.header span:nth-child(3) {
+  z-index: 19;
+  text-shadow:0px 0px 0 rgb(42,142,167),-1px 1px 0 rgb(37,137,162),-2px 2px 0 rgb(33,133,158),-3px 3px 0 rgb(29,129,154),-4px 4px 0 rgb(24,124,149),-5px 5px 0 rgb(20,120,145),-6px 6px 0 rgb(16,116,141),-7px 7px 0 rgb(11,111,136),-8px 8px 0 rgb(7,107,132),-9px 9px 0 rgb(3,103,128),-10px 10px 0 rgb(-2,98,123),-11px 11px 0 rgb(-6,94,119),-12px 12px 0 rgb(-11,89,114),-13px 13px 0 rgb(-15,85,110),-14px 14px 0 rgb(-19,81,106),-15px 15px 0 rgb(-24,76,101),-16px 16px 0 rgb(-28,72,97),-17px 17px 0 rgb(-32,68,93),-18px 18px 0 rgb(-37,63,88),-19px 19px 0 rgb(-41,59,84), -20px 20px 0 rgb(-45,55,80);
+}
+.header span:nth-child(4) {
+  z-index: 18;
+  text-shadow:0px 0px 0 rgb(221,-5,59),-1px 1px 0 rgb(216,-10,54),-2px 2px 0 rgb(212,-14,50),-3px 3px 0 rgb(208,-18,46),-4px 4px 0 rgb(203,-23,41),-5px 5px 0 rgb(199,-27,37),-6px 6px 0 rgb(195,-31,33),-7px 7px 0 rgb(190,-36,28),-8px 8px 0 rgb(186,-40,24),-9px 9px 0 rgb(182,-44,20),-10px 10px 0 rgb(177,-49,15),-11px 11px 0 rgb(173,-53,11),-12px 12px 0 rgb(168,-58,6),-13px 13px 0 rgb(164,-62,2),-14px 14px 0 rgb(160,-66,-2),-15px 15px 0 rgb(155,-71,-7),-16px 16px 0 rgb(151,-75,-11),-17px 17px 0 rgb(147,-79,-15),-18px 18px 0 rgb(142,-84,-20),-19px 19px 0 rgb(138,-88,-24), -20px 20px 0 rgb(134,-92,-28);
+}
+.c {
+  display: inline-block;
+  margin-left: 5px;
+  margin-right: 14px;
+  -ms-transform: rotate(25deg);
+  -moz-transform: rotate(25deg);
+  -o-transform: rotate(45deg);
+  -webkit-transform: rotate(25deg);
+  transform: rotate(25deg);
+}
+.r {
+  padding-left: 2px;
+}
+.dot{
+  content: '';
+  width: 15px;
+  height: 15px;
+  border-radius: 20px;
+  &.red{
+    margin-left: 10px;
+    background-color: #c30016;
+  }
+  &.green{
+    margin-left: 30px;
+    background-color: #008510;
+  }
+  &.blue{
+    margin-left: 50px;
+    background-color: #18859f;
+  }
+
+}
+</style>

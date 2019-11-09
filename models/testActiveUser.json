@@ -1,0 +1,35 @@
+{
+    "_id": {
+        "$oid": "5b8f19cd681e130631c22f3f"
+    },
+    "description": "Archivo para poblar la base de datos con un usuario con el que probar la pagina de activar usuario",
+    "profile": {
+        "tipo": "cliente",
+        "name": "Juan Lorenzo",
+        "birth": {
+            "$date": "2018-09-02T00:00:00.000Z"
+        },
+        "cp": 4880,
+        "gender": "Masculino",
+        "provincia": "Almería",
+        "localidad":"Berja",
+        "surname": "Jimenez Barazas"
+    },
+    "tokens": [],
+    "activoToken": "test",
+    "activoExpires": {
+        "$date": "2022-09-02T00:00:00.000Z"
+    },
+    "activo": false,
+    "consultasRealizadas": [],
+    "password": "$2a$10$9RHvDBx1u1Y0MHypbC7lWeJ1easEv3fU0isKE4e/AYHyOJV00/DMm",
+    "email": "jlorenzo@hotmail.com",
+    "nickname": "juanlo",
+    "createdAt": {
+        "$date": "2018-09-04T23:48:29.666Z"
+    },
+    "updatedAt": {
+        "$date": "2018-09-04T23:50:06.674Z"
+    },
+    "__v": 0
+}
