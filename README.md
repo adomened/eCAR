@@ -1,4 +1,6 @@
-# mevn-eCAR
+![Logo eCAR](https://raw.githubusercontent.com/lagartoLomo/eCAR/master/public/img/ecar-logo.png)
+
+# MEVN-eCAR
 
 ## Project setup
 ```
@@ -29,3 +31,9 @@ npm run test:unit --silent
 ```
 npm run test:e2e --silent
 ```
+
+# TODO
+
+Vue 3
+Improve components implementation
+MongoDB Atlas
