@@ -63,7 +63,7 @@
     "chai": "^4.2.0",
     "chai-as-promised": "^7.1.1",
     "moxios": "^0.4.0",
-    "node-sass": "^4.11.0",
+    "node-sass": "^7.0.0",
     "sass-loader": "^7.1.0",
     "sinon": "^7.2.4",
     "vue-template-compiler": "^2.6.6"
